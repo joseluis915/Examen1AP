@@ -11,11 +11,11 @@
             <!--——————————————————————————————————————————————[ MENU ITEMS ]——————————————————————————————————————————————-->
             <Menu Height="24" FontSize="15">
                 <MenuItem Header="Registros">
-                    <MenuItem x:Name="UsuarioMenuItem" Click="CuidadMenuItem_Click" Header="Registrar Ciudad"/>
+                    <MenuItem x:Name="rCiudadMenuItem" Click="rCuidadMenuItem_Click" Header="Registrar Ciudad"/>
                 </MenuItem>
 
                 <MenuItem Header="Consultas">
-                    <Menu/>
+                    <MenuItem x:Name="cCiudadMenuItem" Click="cCuidadMenuItem_Click" Header="Consultar Ciudad"/>
                 </MenuItem>
 
                 <MenuItem Header="Ayuda">

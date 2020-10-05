@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Examen1AP.UI.Registros;
+using Examen1AP.UI.Consultas;
 
 namespace Examen1AP
 {
@@ -22,9 +24,16 @@ namespace Examen1AP
             InitializeComponent();
         }
 
-        private void CuidadMenuItem_Click(object sender, RoutedEventArgs e)
+        private void rCuidadMenuItem_Click(object sender, RoutedEventArgs e)
         {
+            rCiudades rCiudades = new rCiudades();
+            rCiudades.Show();
+        }
 
+        private void cCuidadMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            cCiudades cCiudades = new cCiudades();
+            cCiudades.Show();
         }
     }
 }
